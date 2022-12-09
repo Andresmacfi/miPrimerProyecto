@@ -11,7 +11,7 @@ class MiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "MI app",
+      title: "App De navegacion ",
       home: Inicio(),
     );
   }
@@ -36,7 +36,7 @@ class _InicioState extends State<Inicio> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Home"),
+            Text("Navegacion pag"),
             ElevatedButton(
               child: Text(" vamos  la otra pag mario "),
               onPressed: () => {
