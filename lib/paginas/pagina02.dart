@@ -7,7 +7,7 @@ class pagina02 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Terminos y condiciones "),
+        title: Text("Terminos y condiciones de uso "),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),

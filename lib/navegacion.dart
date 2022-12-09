@@ -36,9 +36,9 @@ class _InicioState extends State<Inicio> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Navegacion pag"),
+            Text("Navegacion entre paginas"),
             ElevatedButton(
-              child: Text(" vamos  la otra pag mario "),
+              child: Text(" vamos a la otra pag mario "),
               onPressed: () => {
                 //print("presionaste el boton")
                 Navigator.push(context,
